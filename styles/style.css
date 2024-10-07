@@ -172,8 +172,21 @@ nav {
     justify-content: right;
 }
 
-article {
-    background-color: white;
+nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #111f5a;
+}
+
+nav a.active {
+    background-color: #f09600;
+    color: #111f5a;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
 }
 
 header,
@@ -181,4 +194,22 @@ nav,
 article,
 footer {
     padding: 0 15% 0 15%;
+}
+
+article {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article h1 {
+    font-size: 54px;
+    color: #f09600;
+    border-bottom: 2px solid #f09600;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 14pt;
 }
